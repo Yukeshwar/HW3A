@@ -5,9 +5,9 @@ function setup() {
   let dotSize2 = 60; 
   let spacing = 100; 
 
-  for (let y = 0; y < h; y += spacing)
+  for (let y = 0; y < height; y += spacing)
      { 
-    for (let x = 0; x < w; x += spacing)
+    for (let x = 0; x < width; x += spacing)
       { 
       fill(0); 
       noStroke(); 
